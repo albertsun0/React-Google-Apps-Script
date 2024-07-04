@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom';
-import SheetEditor from './components/SheetEditor';
+import Generator from './components/Generator';
 import './styles.css';
 
 const App = () => {
   return (
     <>
-      <SheetEditor />
+      <Generator />
     </>
   );
 };

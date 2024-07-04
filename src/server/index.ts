@@ -1,24 +1,13 @@
-import {
-  onOpen,
-  openDialog,
-  openDialogBootstrap,
-  openDialogMUI,
-  openDialogTailwindCSS,
-  openAboutSidebar,
-} from './ui';
+import { onInstall, onOpen, openDialogTailwindCSS } from './ui';
 
-import { getSheetsData, addSheet, deleteSheet, setActiveSheet } from './sheets';
+import { checkMultipleAccountIssue, addImageSlide, addImage } from './slides';
 
 // Public functions must be exported as named exports
 export {
+  onInstall,
   onOpen,
-  openDialog,
-  openDialogBootstrap,
-  openDialogMUI,
   openDialogTailwindCSS,
-  openAboutSidebar,
-  getSheetsData,
-  addSheet,
-  deleteSheet,
-  setActiveSheet,
+  checkMultipleAccountIssue,
+  addImage,
+  addImageSlide,
 };
